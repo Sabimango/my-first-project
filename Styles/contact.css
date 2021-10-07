@@ -33,9 +33,13 @@ main {
     justify-content: space-between;
     align-items: center;
     transition: 0.6s;
-    padding: 25px 100px;
+    padding: 10px 100px;
     background-color: black;
   }
+
+  ul li a:hover{
+    color: red;
+}
   
   header ul {
     position: relative;
@@ -139,6 +143,27 @@ p {
     color: #666666;
   }
 
+  input.input1 {
+    height: 30px;
+    border-radius: 5px;
+    padding: 30px;
+    width: 300px;
+    border: 2px solid #ffffff;
+    background: black;
+    color: white;
+  }
+
+  input.input2 {
+    height: 0px;
+    width: 320px;
+    border-radius: 5px;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    background: black;
+    color: white;
+  }
+  
+
 
 /* button */
 
@@ -164,3 +189,4 @@ p {
     cursor: pointer;
   }
 
+ 

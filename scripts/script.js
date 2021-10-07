@@ -7,3 +7,4 @@ document.addEventListener("DOMContentLoaded", () => {
   target.src = `${array[random]}`;
   log(target);
 });
+
